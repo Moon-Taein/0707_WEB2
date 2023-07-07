@@ -1,0 +1,37 @@
+/* 블록 요소의 크기 조절*/
+html {
+    height: 150vh;
+  }
+  div {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+  }
+  section {
+    height: 300px;
+    width: 70%; /*해당 요소의 컨테이너 값의 70%*/
+    background-color: cornflowerblue;
+  }
+  /*식별자를 활용해서 해당 요소 style*/
+  #third {
+    position: relative;
+    top: 100px;
+    left: 150px;
+    background-color: bisque;
+  }
+  #forth {
+    position: relative;
+    left: 80%;
+    bottom: -20%;
+    background-color: aquamarine;
+  }
+  #second {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+  }
+  #first {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+  }
