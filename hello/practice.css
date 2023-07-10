@@ -7,15 +7,10 @@ body {
 section {
   background-color: #dadbf1;
   padding: 80px 30px 115px;
-  width: 1903px;
   height: 200px;
 }
 
 #text_input {
-  position: absolute;
-  left: 580px;
-  width: 720px;
-  height: 40px;
   background-color: #ffffff;
   border-color: #000000;
   border-radius: 4px;
@@ -30,7 +25,6 @@ section {
 
 #header {
   height: 88px;
-  width: 1903px;
   background-color: #000000;
   color: #ffffff;
   display: flex;
@@ -43,10 +37,6 @@ section {
 
 #header_txt1,
 #header_txt2 {
-  position: absolute;
-  height: 29px;
-  top: 3%;
-  width: 140px;
   color: #ffffff;
   font-family: GT America Standard;
   font-size: 24px;
@@ -56,33 +46,38 @@ section {
   padding: 2px 0px 4px 12.8px;
 }
 
-#header_txt1 {
-  left: 100px;
-}
-
-#header_txt2 {
-  left: 200px;
+#header_div1 {
+  display: flex;
 }
 
 main {
   height: 800px;
-  width: 1226px;
   color: #191a1b;
   font-size: 20px;
   line-height: 30px;
+}
+
+body {
+  height: 900;
 }
 
 #container {
   height: 100px;
-  width: 1226px;
   color: #191a1b;
   font-size: 20px;
   line-height: 30px;
   padding: 0px 30px;
+  text-align: center;
+}
+
+#container1,
+#container2,
+#container3 {
+  display: flex;
+  text-align: center;
 }
 
 h4 {
-  width: 600px;
   height: 28px;
   color: #191a1b;
   font-family: GT America Standard;
@@ -91,81 +86,19 @@ h4 {
   line-height: 28px;
   margin: 48px 0px 16px;
 }
+
 /* 큰틀에 가지는 속성과 아래쪽이가지는 속성이 겹치면 큰틀꺼만 적용된다*/
 #text-center {
   font-size: 80px;
   letter-spacing: -4px;
   line-height: 120px;
   margin: 0px 0px 16px;
+}
+
+#hero-unit_title {
   text-align: center;
 }
 
-#item1 {
-  position: absolute;
-  left: 15%;
-  bottom: 20%;
-}
-
-#item2 {
-  position: absolute;
-  left: 50%;
-  bottom: 20%;
-}
-#item3 {
-  position: absolute;
-  left: 15%;
-  bottom: 0%;
-}
-
-#item4 {
-  position: absolute;
-  left: 50%;
-  bottom: 0%;
-}
-
-#item5 {
-  position: absolute;
-  left: 15%;
-  bottom: -20%;
-}
-
-#item6 {
-  position: absolute;
-  left: 50%;
-  bottom: -20%;
-}
-
-#item_title1 {
-  position: absolute;
-  left: 15%;
-  bottom: 20%;
-}
-
-#item_title2 {
-  position: absolute;
-  left: 50%;
-  bottom: 20%;
-}
-#item_title3 {
-  position: absolute;
-  left: 15%;
-  bottom: 0%;
-}
-
-#item_title4 {
-  position: absolute;
-  left: 50%;
-  bottom: 0%;
-}
-
-#item_title5 {
-  position: absolute;
-  left: 15%;
-  bottom: -20%;
-}
-
-#item_title6 {
-  position: absolute;
-  left: 50%;
-  bottom: -20%;
+footer {
+  display: flex;
 }
